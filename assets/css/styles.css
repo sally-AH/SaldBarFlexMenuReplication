@@ -23,7 +23,7 @@
 }
 
 .header .background {
-    background-image: url("/assets/images/1.jpg");
+    background-image: url("assets/images/1.jpg");
     background-repeat: no-repeat;
     position: absolute;
     background-size: cover;
