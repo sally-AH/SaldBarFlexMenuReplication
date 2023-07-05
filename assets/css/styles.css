@@ -24,7 +24,7 @@
 
 .header .background {
     background-image: url("../images/1.jpg");
-    background-color: #215e35;
+    background-color: red;
     background-repeat: no-repeat;
     position: absolute;
     background-size: cover;
