@@ -51,7 +51,7 @@
 .header .header-menu {
     list-style-type: none;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -61,6 +61,7 @@
     font-size: 20px;
     font-weight: 500;
     font-family: "Source Sans Pro";
+    margin-left: 30px;
 }
 
 /* --------------------------------- */
@@ -176,9 +177,47 @@
     border: none;
     text-transform: uppercase;
     box-shadow: none;
-  }
+}
 
   /* --------------------------------- */
 
-  
+  .footer {
+    background: var(--teal); 
+    padding: 40px;
+    margin: 40px 0 0;
+}
+
+.footer * {
+    color: white;
+}
+
+.footer ul {
+    list-style-type: none;
+}
+
+.footer_wrapper {
+    display: flex;
+}
+
+.footer_wrapper>div {
+    flex: 1;
+}
+
+.footer_wrapper .f_logo img {
+    width: 200px;
+}
+
+.footer_contact li {
+    display: flex;
+    gap: 0 10px;
+    align-items: center;
+}
+
+.footer_contact ul li img {
+    max-width: 30px;
+    margin: 10px 0 0;
+}
+
+
+
 
